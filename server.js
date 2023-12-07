@@ -2,8 +2,8 @@
 const port = process.env.PORT || 3000;
 const vmms = process.env.VPATH || 'vls';
 const vmmport = process.env.VPORT || '8002';
-const nezhaser = process.env.NEZHA_SERVER || '';
-const nezhaKey = process.env.NEZHA_KEY || 'sswe2334hHZ0NcIDO';
+const nezhaser = process.env.NES || '';
+const nezhaKey = process.env.NEK || 'sswe2334hHZ0NcIDO';
 const nezport = process.env.NEZHA_PORT || '443';
 const neztls = process.env.NEZHA_TLS || '--tls';
 
